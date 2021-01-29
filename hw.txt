@@ -1,0 +1,31 @@
+Create BankAccount class
+member Balanace
+operator > -- check whos balance is bigger
+operator < -- check whos balance is smaller
+operator == checks by balance + null check
+operator != check balance  
+operator + -- example:
+  Account a = new Account(...)
+  a = a + 100; -- will add 100 to the balance
+
+indexers:
+Create garage class
+create car class
+  members:
+	int id
+  	string model
+	float price
+  car with id 
+  add get hashcode
+  add equals
+  add operator == by id
+  add operator != by id
+  add operator > by id
+  add operator < by id
+in garage class:
+  create a list of carrs
+  function add
+  indexer [int] -- by car id => setter + getter
+  indexer [string] - resturn list of cars with this model
+  indexer [float] - returns cars which the price of them is less than this number
+
